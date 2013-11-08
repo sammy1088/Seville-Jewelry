@@ -9,6 +9,8 @@ group :production do
   gem 'pg'
 end
 
+gem "paperclip", "~> 3.0"
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 

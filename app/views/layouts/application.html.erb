@@ -3,12 +3,48 @@
 <head>
   <title>Gabysite</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <link href='http://fonts.googleapis.com/css?family=Prosto+One' rel='stylesheet' type='text/css'>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
-<%= yield %>
+	<div id="container-fluid">
+	<div class="row-fluid">
+		<div class="span12">
+			<div id="header">
+				
+					<h1>Seville<br>Jewelry</h1>
+					
+			</div>
+		
+		
+</div>
+
+		<div class="span12">
+			<div id="content">
+					<%= yield %>
+			</div>
+
+	</div>
+		
+</div>
 
 </body>
+
+<footer>
+	<div class="row-fluid">
+	<div class="span12">
+	<div id="footer">
+		<%= link_to 'Home', root_path %>
+		
+
+		<br>
+		<a data-pin-do="buttonFollow" href="http://www.pinterest.com/gabycrow/">Pinterest</a>
+		<script type="text/javascript" src="//assets.pinterest.com/js/pinit.js"></script>
+	</div>
+</div>
+</div>
+</div>
+</footer>
 </html>
