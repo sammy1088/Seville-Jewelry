@@ -1,0 +1,29 @@
+<div id="bio">
+<center>
+<p>
+  
+  <h1><%= @post.title %></h1>
+</p>
+ 
+
+
+<p>
+<%= image_tag @post.photo.url(:medium) %>
+</p>
+
+<p>
+  
+  <%= @post.text %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @post.price %> (email Gaby at <a href="GabyCrow@hotmail.com">GabyCrow@hotmail.com</a> if interested in purchasing)
+</p>
+
+
+
+<%= link_to 'Back', posts_path %>
+
+</center>
+</div>

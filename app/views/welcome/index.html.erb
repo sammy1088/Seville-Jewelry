@@ -1,0 +1,18 @@
+
+<% @posts.each do |post| %>
+
+<div id="item"
+  
+    <ul>
+      <li>
+          <%= image_tag post.photo(:small) %></li>
+          <div id="desc"
+
+    <li><div id="bio"><%= link_to post.title, post %></div></li>
+  </ul>
+  </div>
+
+</div>
+
+
+<% end %>

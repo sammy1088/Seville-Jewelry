@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Gabysite</title>
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-  <link href='http://fonts.googleapis.com/css?family=Prosto+One' rel='stylesheet' type='text/css'>
-  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
+  <title>Seville Jewelry</title>
+    <%= stylesheet_link_tag "application", :media => "all" %>
+    <link href='http://fonts.googleapis.com/css?family=Prosto+One' rel='stylesheet' type='text/css'>
+    <%= javascript_include_tag "application" %>
 
-	<div id="container-fluid">
+    <%= csrf_meta_tag %>
+  
+</head>
+
+<div id="container-fluid">
 	<div class="row-fluid">
 		<div class="span12">
 			<div id="header">
@@ -17,7 +18,7 @@
 					<h1>Seville<br>Jewelry</h1>
 					
 			</div>
-		
+	<body>	
 		
 </div>
 
@@ -30,13 +31,17 @@
 		
 </div>
 
+
+
+
+
 </body>
 
 <footer>
 	<div class="row-fluid">
 	<div class="span12">
 	<div id="footer">
-		<%= link_to 'Home', root_path %>
+		<%= link_to 'Home', root_path %><br>
 		
 
 		<br>
@@ -47,4 +52,5 @@
 </div>
 </div>
 </footer>
+
 </html>
