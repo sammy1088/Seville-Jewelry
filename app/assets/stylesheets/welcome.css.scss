@@ -1,3 +1,18 @@
 // Place all the styles related to the welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+#item {
+
+float:left;
+	 display: inline;
+	padding:50px;
+	list-style-type: none;
+}
+
+#desc {
+	text-align:center;
+}
+
+#bio {
+	font-family: 'Prosto One', cursive;
+}

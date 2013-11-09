@@ -1,0 +1,71 @@
+@import "bootstrap";
+
+/* universal */
+
+
+#container-fluid {
+	padding:25px;
+	
+	background:#ffffff; 
+
+	
+}
+
+#header {
+	padding:20px;
+	float:center;
+	border-style:solid none;
+text-align:center;
+font-family: 'Prosto One', cursive;
+
+
+background:#ffffff; 
+	}
+
+
+
+
+#item {
+
+float:left;
+	 display: inline;
+	padding:50px;
+	
+	list-style-type: none;
+
+}
+
+#contactcont {
+	font-family: 'Prosto One', cursive;
+}
+
+#biohead {
+	font-family: 'Prosto One', cursive;
+}
+#bio {
+	font-family: 'Prosto One', cursive;
+}
+
+
+#desc {
+	text-align:center;
+}
+
+#side {
+	float:right;
+	padding:20px;
+	border-style:solid;
+	height:610px;
+	background:#ffffff; 
+
+
+	}
+
+#footer {
+	text-align:center;
+	float:center;
+	padding:20px;
+	border-top-style:solid;
+	background:#ffffff; 
+
+}
