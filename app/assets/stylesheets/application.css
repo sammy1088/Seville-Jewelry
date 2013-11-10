@@ -11,9 +11,4 @@
  *= require_self
  *= require_tree .
  */
- html {
- 	background:#ffffff;
- 	padding-left:60px;
- 	padding-right:60px; 
- }
 

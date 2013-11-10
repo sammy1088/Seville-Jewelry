@@ -2,6 +2,12 @@
 
 /* universal */
 
+ html {
+ 	background:#ffffff;
+ 	padding-left:60px;
+ 	padding-right:60px; 
+ }
+
 
 #container-fluid {
 	padding:25px;
@@ -44,6 +50,10 @@ float:left;
 }
 #bio {
 	font-family: 'Prosto One', cursive;
+	text-align:center;
+	float:center;
+	
+
 }
 
 
